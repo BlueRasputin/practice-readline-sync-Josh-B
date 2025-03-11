@@ -1,0 +1,20 @@
+const readline = require('readline-sync');
+
+let name = readline.question("What is your name? ");
+console.log("Hello," + name + "!");
+// Output: Hello, name!
+
+let questionOne = readline.question("What is the difference between implicit and explicit coercion? ");
+console.log("The difference between implicit and explicit coercion is " + questionOne + ".");
+
+let questionTwo = readline.question("What do you use instead of '=' to stop implicit coercion? ");
+console.log("You use " + questionTwo + " instead of '=' to stop implicit coercion.");
+
+let questionThree = readline.question("What does JavaScript see the operator '+' as by default? ");
+console.log("JavaScript sees the operator '+' as " + questionThree + " by default.");
+
+let questionFour = readline.question("What do you use when you want readline to recognize a number instead of a string? ");
+console.log("You use " + questionFour + " when you want readline to recognize a number instead of a string.");
+
+let questionFive = readline.questionInt("how many 'falsy values' are there? ");
+console.log("There are " + questionFive + " falsy values.");
